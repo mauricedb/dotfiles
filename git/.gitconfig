@@ -1,7 +1,9 @@
 [core]
 	autocrlf = true
-	excludesfile = C:\\Users\\m.debeijer\\Documents\\gitignore_global.txt
-
+	excludesfile = C:\\Users\\mauri\\Documents\\gitignore_global.txt
+[user]
+	name = Maurice de Beijer
+	email = maurice.de.beijer@gmail.com
 [alias]
 	lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
@@ -9,9 +11,11 @@
 	fl = log -u
 	co = checkout
 	pushf = push --force-with-lease
+	yolo = push --force-with-lease
 	a = add .
 	c = commit -am
 	s = status
+	branches = branch --sort=-committerdate  --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 	pr  = "!f() { git fetch -fu ${2:-$(git remote |grep ^upstream || echo origin)} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
     pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
     # for bitbucket/stash remotes
@@ -19,23 +23,22 @@
 
 [diff]
     tool = vscode
-
 [difftool]
     prompt = false
-
 [difftool "vscode"]
     cmd = Code \"$LOCAL\" \"$REMOTE\" --diff --wait
     trustExitCode = false
-
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe' \"$LOCAL\" \"$REMOTE\"
 [merge]
     tool = vscode
     conflictstyle = diff3
-
 [mergetool "vscode"]
     cmd = Code --wait $MERGE
-
-[filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe' -merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[gui]
+	recentrepo = C:/Demos/xxReact-JPM
+[credential]
+	helper = wincred

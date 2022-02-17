@@ -1,6 +1,7 @@
 [core]
 	autocrlf = true
 	excludesfile = C:\\Users\\mauri\\Documents\\gitignore_global.txt
+	editor = code --wait
 [user]
 	name = Maurice de Beijer
 	email = maurice.de.beijer@gmail.com
@@ -20,6 +21,7 @@
     pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
     # for bitbucket/stash remotes
     spr  = "!f() { git fetch -fu ${2:-$(git remote |grep ^upstream || echo origin)} refs/pull-requests/$1/from:pr/$1 && git checkout pr/$1; }; f"
+	reset-to-remote = reset --hard @{u}
 
 [diff]
     tool = vscode
@@ -38,7 +40,11 @@
 [mergetool "sourcetree"]
 	cmd = 'C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe' -merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
-[gui]
-	recentrepo = C:/Demos/xxReact-JPM
 [credential]
 	helper = wincred
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
+[help]
+	autocorrect = 10
+[init]
+	defaultBranch = main

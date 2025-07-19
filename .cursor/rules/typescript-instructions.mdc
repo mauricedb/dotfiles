@@ -1,0 +1,20 @@
+---
+description: TypeScript Instructions
+globs: *.ts, *.tsx
+---
+
+# TypeScript Instructions
+
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+- Always use curly braces in conditionals.
+- Use the "function" keyword for pure functions.
+- Use declarative JSX.
+
+# Naming Conventions
+
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+- Use PascalCase for component names.
+- Use camelCase for variable and function names.

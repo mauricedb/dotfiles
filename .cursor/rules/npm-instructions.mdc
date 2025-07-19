@@ -1,0 +1,6 @@
+---
+description: NPM Instructions
+globs:
+---
+
+This project use PNPM to manage dependencies

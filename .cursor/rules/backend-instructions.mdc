@@ -1,0 +1,10 @@
+---
+description: Backend Instructions
+globs: **/*.{ts,js,json,prisma}
+---
+
+# Backend Instructions
+
+- Use Prisma with a PostgreSQL database hosted on Supabase for data storage.
+- Follow Prisma guidelines for security and performance.
+- Use Zod schemas to validate data exchanged with the backend.

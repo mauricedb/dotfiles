@@ -1,0 +1,19 @@
+---
+description: Project Structure
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- This is an app to view and compare camper sites
+- It's to be funded using affiliate marketing
+- 
+
+## Tech Stack
+
+- Frontend: Next.js with the App folder, Tailwind, Shadcn
+- Backend: Postgres, Supabase, Prisma ORM, Server Actions
+- Analytics: Google (not yet added)
+- Deployment: Vercel
+- Packages: pnpm

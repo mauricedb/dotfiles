@@ -1,0 +1,59 @@
+---
+description: Code Quality and Pre-commit Checks
+globs: **/*.{ts,tsx,js,jsx,json,md,css,html}
+alwaysApply: true
+---
+
+# Code Quality and Pre-commit Checks
+
+This rule ensures consistent code quality and prevents committing broken code.
+
+## Mandatory Quality Checks
+
+- **ALWAYS** run `pnpm lint` before completing any task or suggesting code changes.
+- **ALWAYS** run `pnpm tsc` to verify TypeScript compilation.
+- **NEVER** commit or suggest committing code that has linting errors or TypeScript errors.
+- If linting or type errors are found, **IMMEDIATELY** fix them before proceeding.
+- Maximum 3 attempts to fix linting/type errors on the same file - if still broken after 3 attempts, ask the user for guidance.
+- After making any code changes, automatically run both lint and typecheck commands to validate the changes.
+
+## Commands to Run
+
+```bash
+pnpm lint      # ESLint checking
+pnpm tsc       # TypeScript compilation check
+```
+
+## Error Handling Protocol
+
+1. Run both commands after any code changes
+2. If errors found, fix immediately
+3. Re-run commands to verify fixes
+4. If unable to fix after 3 attempts, seek user guidance
+5. Only proceed when both commands pass successfully# Code Quality and Pre-commit Checks
+
+This rule ensures consistent code quality and prevents committing broken code.
+
+## Mandatory Quality Checks
+
+- **ALWAYS** run `pnpm lint` before completing any task or suggesting code changes.
+- **ALWAYS** run `pnpm tsc` (or `pnpm typecheck`) to verify TypeScript compilation.
+- **NEVER** commit or suggest committing code that has linting errors or TypeScript errors.
+- If linting or type errors are found, **IMMEDIATELY** fix them before proceeding.
+- Maximum 3 attempts to fix linting/type errors on the same file - if still broken after 3 attempts, ask the user for guidance.
+- After making any code changes, automatically run both lint and typecheck commands to validate the changes.
+
+## Commands to Run
+
+```bash
+pnpm lint      # ESLint checking
+pnpm tsc       # TypeScript compilation check
+```
+
+## Error Handling Protocol
+
+1. Run both commands after any code changes
+2. If errors found, fix immediately
+3. Re-run commands to verify fixes
+4. If unable to fix after 3 attempts, seek user guidance
+5. Only proceed when both commands pass successfully

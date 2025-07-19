@@ -1,0 +1,31 @@
+---
+description: UI and Styling
+globs:
+---
+
+# UI and Styling
+
+- Use Shadcn UI, Radix, and Tailwind for components and styling.
+- Use `pnpm dlx shadcn@latest add <component>` to add new Shadcn UI components.
+- When adding a `Link` component that should look like a button, use the `Button` component with the `asChild` prop like this: `<Button asChild><Link href="/">Home</Link></Button>`.
+- Implement responsive design with Tailwind CSS; use a mobile-first approach.
+- **ALWAYS** use the `cn()` function from `@/lib/utils` to merge class names. Never use template literals or string concatenation for className attributes (e.g., use `cn("base-class", conditionalClass)` instead of `"base-class " + conditionalClass` or `\`base-class ${conditionalClass}\``).
+- Client components (useState, hooks, etc) require that 'use client' is set at the top of the file
+- useRouter should be imported from next/navigation
+- All new components should go in `/src/components` and be named like `example-component.tsx` unless otherwise specified
+- All new pages go in `/src/app`
+- Data fetching should be done in a server component as much as possible and pass the data down as props
+- Use 'nuqs' for URL search parameter state management.
+- Optimize Web Vitals (LCP, CLS, FID).
+- Limit 'use client':
+  - Favor server components and Next.js SSR.
+  - Use only for Web API access in small components.
+  - Avoid for data fetching or state management.
+
+# Performance Optimization
+
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC).
+- Wrap client components in Suspense with fallback.
+- Use dynamic loading for non-critical components.
+- Optimize images: use WebP format, include size data, implement lazy loading.
+- Use Zod for form validation.

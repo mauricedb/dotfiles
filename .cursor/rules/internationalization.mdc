@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+This app will be translated into multiple languages but we will start with English
+
+- The library used is `next-intl`
+

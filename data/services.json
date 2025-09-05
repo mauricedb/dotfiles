@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Menu Maestro",
+    "description": "AI-powered meal planning and recipe generation",
+    "url": "https://www.menu-maestro.nl/",
+    "features": [
+      "Personalized recipes based on dietary preferences",
+      "Automatic shopping list generation",
+      "Step-by-step cooking instructions",
+      "Meal variety to prevent boredom"
+    ]
+  },
+  {
+    "name": "Camperplaats Vergelijken",
+    "description": "Vind en vergelijk camperplaatsen in de buurt met AI-gebaseerde evaluaties",
+    "url": "https://www.camperplaats-vergelijken.nl/",
+    "features": [
+      "Interactieve kaart voor het vinden van camperplaatsen",
+      "AI-analyse van recensies",
+      "Vergelijking van faciliteiten tussen camperplaatsen",
+      "Weloverwogen keuze voor de perfecte locatie"
+    ]
+  },
+  {
+    "name": "Detour Gems",
+    "description": "Discover hidden gems and unique travel experiences along your route",
+    "url": "https://www.detourgems.com/",
+    "features": [
+      "AI-powered route optimization",
+      "Personalized points of interest recommendations",
+      "Integration with popular navigation apps",
+      "Community-driven travel insights and reviews"
+    ]
+  },
+  {
+    "name": "Cocktail Maestro",
+    "description": "Master the art of cocktail making with expert recipes and bartending tips.",
+    "url": "https://www.cocktail-maestro.com/",
+    "features": [
+      "Step-by-step cocktail recipes",
+      "Mixing and shaking techniques",
+      "Tropical and classic drink ideas",
+      "Bartending secrets and tips"
+    ]
+  },
+  {
+    "name": "About Maurice de Beijer",
+    "description": "Personal profile and information",
+    "url": "https://about.me/maurice-de-beijer",
+    "features": []
+  },
+  {
+    "name": "theproblemsolver.dev",
+    "description": "Main English website",
+    "url": "https://www.theproblemsolver.dev/",
+    "features": []
+  },
+  {
+    "name": "theproblemsolver.nl",
+    "description": "Main Dutch website",
+    "url": "https://www.theproblemsolver.nl/",
+    "features": []
+  }
+]

@@ -44,10 +44,18 @@
     ]
   },
   {
+    "name": "Menu Maestro (Google Sites)",
+    "description": "Alternative Menu Maestro site",
+    "url": "https://sites.google.com/view/menu-maestro",
+    "features": [],
+    "hidden": true
+  },
+  {
     "name": "About Maurice de Beijer",
     "description": "Personal profile and information",
-    "url": "https://about.me/maurice-de-beijer",
-    "features": []
+    "url": "https://about.me/maurice-de-beijer/getstarted",
+    "features": [],
+    "hidden": true
   },
   {
     "name": "theproblemsolver.dev",

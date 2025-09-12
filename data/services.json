@@ -1,5 +1,7 @@
 [
   {
+    "note": "**** Update https://github.com/mauricedb/dotfiles/blob/master/data/services.json ****",
+    
     "name": "Menu Maestro",
     "description": "AI-powered meal planning and recipe generation",
     "url": "https://www.menu-maestro.nl/",

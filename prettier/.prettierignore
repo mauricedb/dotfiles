@@ -1,0 +1,25 @@
+node_modules
+.next
+out
+build
+dist
+.turbo
+coverage
+.vercel
+playwright-report
+test-results
+
+# Locks
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Assets
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.webp
+
+# Generated
+*.min.js
+*.min.css

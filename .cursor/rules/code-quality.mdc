@@ -10,6 +10,8 @@ This rule ensures consistent code quality and prevents committing broken code.
 
 ## Mandatory Quality Checks
 
+- **ALWAYS** run `pnpm format` to format the code.
+- **ALWAYS** run `pnpm prisma:format` to format the Prisma schema if any chnages where made to it.
 - **ALWAYS** run `pnpm lint` before completing any task or suggesting code changes.
 - **ALWAYS** run `pnpm tsc` to verify TypeScript compilation.
 - **NEVER** commit or suggest committing code that has linting errors or TypeScript errors.
@@ -46,6 +48,7 @@ This rule ensures consistent code quality and prevents committing broken code.
 ## Commands to Run
 
 ```bash
+pnpm format    # Prettier formatting
 pnpm lint      # ESLint checking
 pnpm tsc       # TypeScript compilation check
 ```

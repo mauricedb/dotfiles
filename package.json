@@ -1,0 +1,14 @@
+{
+  "name": "services-data",
+  "private": true,
+  "packageManager": "pnpm@10.26.0",
+  "scripts": {
+    "format": "prettier --config prettier/.prettierrc --ignore-path prettier/.prettierignore --write .",
+    "lint": "prettier --config prettier/.prettierrc --ignore-path prettier/.prettierignore --check .",
+    "tsc": "node -e \"console.log('No TypeScript sources to check.');\""
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}

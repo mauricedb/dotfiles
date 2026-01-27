@@ -57,6 +57,17 @@
     ]
   },
   {
+    "name": "Thuisbatterij Bij Mij",
+    "description": "Vind en vergelijk thuisbatterijen en installateurs bij jou in de buurt, met heldere uitleg over opslag, rendement en kosten",
+    "url": "https://www.thuisbatterijbijmij.nl/",
+    "features": [
+      "Vergelijk thuisbatterijen (thuisaccu) op capaciteit, vermogen en efficiëntie",
+      "Vind lokale installateurs voor thuisbatterij-installatie en advies",
+      "Inzicht in terugverdientijd, besparing en optimalisatie met zonnepanelen",
+      "Uitleg over subsidies, regelgeving en netcongestie voor batterijopslag"
+    ]
+  },
+  {
     "name": "Menu Maestro (Google Sites)",
     "description": "Alternative Menu Maestro site",
     "url": "https://sites.google.com/view/menu-maestro",

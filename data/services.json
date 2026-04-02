@@ -36,13 +36,38 @@
   },
   {
     "name": "Cocktail Maestro",
+    "description": "Leer de kunst van het cocktelmaken met expertrecepten en bartendertips.",
+    "url": "https://www.cocktail-maestro.com/nl",
+    "locale": "nl",
+    "features": [
+      "Cocktaillerecepten stap voor stap",
+      "Technieken voor mixen en shaken",
+      "Tropische en klassieke drankideeën",
+      "Bartendertips en geheimen"
+    ]
+  },
+  {
+    "name": "Cocktail Maestro",
     "description": "Master the art of cocktail making with expert recipes and bartending tips.",
-    "url": "https://www.cocktail-maestro.com/",
+    "url": "https://www.cocktail-maestro.com/en",
+    "locale": "en",
     "features": [
       "Step-by-step cocktail recipes",
       "Mixing and shaking techniques",
       "Tropical and classic drink ideas",
       "Bartending secrets and tips"
+    ]
+  },
+  {
+    "name": "Cocktail Maestro",
+    "description": "Domina el arte de preparar cócteles con recetas expertas y consejos de barman.",
+    "url": "https://www.cocktail-maestro.com/es",
+    "locale": "es",
+    "features": [
+      "Recetas de cóctel paso a paso",
+      "Técnicas de mezclado y agitado",
+      "Ideas de bebidas tropicales y clásicas",
+      "Consejos y secretos de barman"
     ]
   },
   {
@@ -76,6 +101,28 @@
       "Vind lokale installateurs voor thuisbatterij-installatie en advies",
       "Inzicht in terugverdientijd, besparing en optimalisatie met zonnepanelen",
       "Uitleg over subsidies, regelgeving en netcongestie voor batterijopslag"
+    ]
+  },
+  {
+    "name": "Vakman Bij Mij",
+    "description": "Vind de beste vakman bij jou in de buurt en vergelijk gratis offertes van gecertificeerde loodgieters, elektriciens, schilders en meer.",
+    "url": "https://www.vakmanbijmij.nl/",
+    "features": [
+      "Vergelijk gecertificeerde vakmannen voor uiteenlopende klussen",
+      "Gratis offertes aanvragen bij aangesloten bedrijven",
+      "Van dakdekker tot elektricien, schilder en badkamerspecialist",
+      "Overzicht en keuzehulp voor vakwerk in heel Nederland"
+    ]
+  },
+  {
+    "name": "Rijschool Bij Mij",
+    "description": "Vind en vergelijk rijscholen bij jou in de buurt.",
+    "url": "https://rijschoolbijmij.nl/",
+    "features": [
+      "Lokale rijscholen ontdekken en vergelijken",
+      "Overzicht van lesopties en aanpak",
+      "Sneller de juiste rijschool voor jouw situatie vinden",
+      "Gericht op beginnende en doorstromende cursisten"
     ]
   },
   {

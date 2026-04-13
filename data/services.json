@@ -35,7 +35,7 @@
     ]
   },
   {
-    "name": "Cocktail Maestro",
+    "name": "Cocktail Maestro Nederlandstalig",
     "description": "Leer de kunst van het cocktelmaken met expertrecepten en bartendertips.",
     "url": "https://www.cocktail-maestro.com/nl",
     "locale": "nl",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "name": "Cocktail Maestro",
+    "name": "Cocktail Maestro English-speaking",
     "description": "Master the art of cocktail making with expert recipes and bartending tips.",
     "url": "https://www.cocktail-maestro.com/en",
     "locale": "en",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "name": "Cocktail Maestro",
+    "name": "Maestro coctelero hispanohablante",
     "description": "Domina el arte de preparar cócteles con recetas expertas y consejos de barman.",
     "url": "https://www.cocktail-maestro.com/es",
     "locale": "es",

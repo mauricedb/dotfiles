@@ -126,6 +126,28 @@
     ]
   },
   {
+    "name": "Diensten Bij Mij",
+    "description": "Startpunt om per vakgebied door te linken naar gespecialiseerde sites met lokale resultaten, reviews en praktische informatie in Nederland",
+    "url": "https://mauricedb.github.io/diensten-bij-mij/",
+    "features": [
+      "Overzicht met doorverwijzingen naar o.a. loodgieter, rijschool, thuisbatterij, vakman, dakdekker en slotenmaker",
+      "Per dienst: lokale resultaten en context om sneller een betrouwbare keuze te maken",
+      "Open overzicht gehost op GitHub Pages",
+      "Sluit aan op dezelfde ‘bij mij’-aanpak als de gekoppelde sites"
+    ]
+  },
+  {
+    "name": "Slotenmaker Bij Mij",
+    "description": "Vind en vergelijk slotenmakers bij jou in de buurt — zoek op locatie of per stad, met AI-gevalideerde reviews",
+    "url": "https://www.slotenmakerbijmij.nl/",
+    "features": [
+      "Zoeken op huidige locatie of op stad (bijv. Amsterdam, Den Haag, Utrecht)",
+      "AI-gevalideerde reviews en objectieve vergelijking op kwaliteit en lokale relevantie",
+      "Diensten van slot vervangen en cilinder tot sleutelservice, deur openen en hang- en sluitwerk",
+      "Gratis oriënteren; zelf contact opnemen met de slotenmaker die bij je past"
+    ]
+  },
+  {
     "name": "Menu Maestro (Google Sites)",
     "description": "Alternative Menu Maestro site",
     "url": "https://sites.google.com/view/menu-maestro",

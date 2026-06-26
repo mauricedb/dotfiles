@@ -104,6 +104,39 @@
     ]
   },
   {
+    "name": "Aannemer Bij Mij",
+    "description": "Zoek en vergelijk aannemers bij jou in de buurt — gratis en zonder registratie, met reviews, contact en openingstijden op één plek",
+    "url": "https://www.aannemerbijmij.nl/",
+    "features": [
+      "Zoeken op stad of postcode om aannemers in jouw regio te vinden",
+      "Vergelijken op beoordelingen, openingstijden en contactgegevens",
+      "Van verbouwing en nieuwbouw tot badkamer, keuken en onderhoud",
+      "Gratis zoeken en zelf contact opnemen zonder verplichtingen"
+    ]
+  },
+  {
+    "name": "Elektriciens Bij Mij",
+    "description": "Zoek en vergelijk elektriciens bij jou in de buurt en vraag gratis, vrijblijvende offertes aan via een objectief matchingplatform",
+    "url": "https://www.elektriciensbijmij.nl/",
+    "features": [
+      "Gratis en vrijblijvend offertes aanvragen bij maximaal 5 gecontroleerde vakbedrijven",
+      "Objectieve matching op werkzaamheden, beschikbaarheid en regio",
+      "Van elektra aanleggen en groepenkast vervangen tot laadpaal installatie en storingsdienst",
+      "Vergelijk offertes, prijzen en reviews en kies zelf met wie je doorgaat"
+    ]
+  },
+  {
+    "name": "Schilder Bij Mij",
+    "description": "Zoek en vergelijk schilders bij jou in de buurt — gratis en zonder registratie, met reviews, contact en openingstijden op één plek",
+    "url": "https://www.schilderbijmij.nl/",
+    "features": [
+      "Zoeken op stad of postcode om schilders in jouw regio te vinden",
+      "Vergelijken op beoordelingen, openingstijden en contactgegevens",
+      "Van binnen- en buitenschilderwerk tot behangen, lakken en spuitwerk",
+      "Gratis zoeken en zelf contact opnemen zonder verplichtingen"
+    ]
+  },
+  {
     "name": "Thuisbatterij Bij Mij",
     "description": "Vind en vergelijk thuisbatterijen en installateurs bij jou in de buurt, met heldere uitleg over opslag, rendement en kosten",
     "url": "https://www.thuisbatterijbijmij.nl/",

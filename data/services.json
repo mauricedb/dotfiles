@@ -204,9 +204,14 @@
   },
   {
     "name": "Fleetorix",
-    "description": "Fleet management platform",
+    "description": "GDPR cookie consent for all your domains, for one flat monthly price — built for developers and agencies managing multiple sites",
     "url": "https://www.fleetorix.com/",
-    "features": []
+    "features": [
+      "Cookie banner with equal accept and reject buttons, in English or Dutch",
+      "Google Consent Mode v2 support with scripts blocked until consent per category",
+      "Consent log with CSV export, stored in the EU (Frankfurt)",
+      "Manage the banner, installation and consent log of all your sites in one place"
+    ]
   },
   {
     "name": "Menu Maestro (Google Sites)",

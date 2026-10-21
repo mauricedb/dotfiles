@@ -203,9 +203,22 @@
     ]
   },
   {
-    "name": "Fleetorix",
+    "name": "Fleetorix Nederlandstalig",
+    "description": "Cookie consent volgens de AVG voor al je domeinen, voor één vaste maandprijs — voor developers en bureaus met meerdere sites",
+    "url": "https://www.fleetorix.com/nl",
+    "locale": "nl",
+    "features": [
+      "Cookiebanner met even prominente knoppen voor accepteren en weigeren, zonder cookiewall",
+      "Google Consent Mode v2 (basic en advanced mode) met vier vaste cookiecategorieën",
+      "Toestemmingslog met CSV-export als bewijs van toestemming, opgeslagen in de EU",
+      "Eén dashboard voor de banner, installatie en toestemmingslog van al je sites"
+    ]
+  },
+  {
+    "name": "Fleetorix English-speaking",
     "description": "GDPR cookie consent for all your domains, for one flat monthly price — built for developers and agencies managing multiple sites",
     "url": "https://www.fleetorix.com/",
+    "locale": "en",
     "features": [
       "Cookie banner with equal accept and reject buttons, in English or Dutch",
       "Google Consent Mode v2 support with scripts blocked until consent per category",
